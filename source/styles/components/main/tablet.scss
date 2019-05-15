@@ -1,0 +1,42 @@
+main {
+    background: none;
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .container {
+        width: 768px;
+        margin: auto;
+
+        .wrapper {
+            display: none;
+        }
+
+        .content {
+            padding-left: 50px;
+
+            .title {
+
+                &.mobile {
+                    display: none;
+                }
+            }
+
+            & > p:last-of-type {
+                margin-right: 116px;
+            }
+
+            .flex {
+
+                p:first-of-type {
+                    margin-right: 34px;
+                }
+            }
+        }
+    }
+}

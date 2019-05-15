@@ -1,0 +1,92 @@
+main {
+    background: color(3);
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .container {
+        width: 320px;
+        margin: auto;
+
+        .wrapper {
+            display: none;
+        }
+
+        .content {
+            padding: 0;
+
+            h3 {
+                padding-bottom: 33px;
+                font-size: 23px;
+                letter-spacing: .2px;
+                line-height: 28.8px;
+                text-align: center;
+            }
+
+            .title {
+                display: none;
+
+                p::after {
+                    display: none;
+                }
+
+                &.mobile {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 12px;
+
+                    p {
+                        margin-bottom: 10px;
+                        padding: 0;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        font-weight: 300;
+                        line-height: 9px;
+
+                        &::after {
+                            content: '';
+                            display: inline-block;
+                            width: 100%;
+                            height: 1px;
+                            background: color(1);
+                        }
+                    }
+                }
+            }
+
+            & > p:last-of-type {
+                width: 271px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .flex {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 19px;
+                text-align: center;
+
+                p:first-of-type {
+                    width: 270px;
+                    margin-right: 0;
+                    margin-bottom: 14px;
+                }
+
+                p:last-of-type {
+                    width: 265px;
+                }
+            }
+        }
+    }
+}
+
+header {
+    margin-bottom: 39px;
+}
