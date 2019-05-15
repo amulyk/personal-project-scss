@@ -1,0 +1,13 @@
+$colors: (
+    1: #EEEEEE,
+    2:#ED1C24,
+    3:#FFFFFF,
+    4:#ACACAC,
+    5: #111111,
+    6: #FEFEFE,
+    7: #DBDBDB,
+);
+
+@function color($key) {
+    @return map_get($colors, $key);
+}

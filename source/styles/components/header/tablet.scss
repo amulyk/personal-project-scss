@@ -1,3 +1,60 @@
-.header {
-    background: green;
+header {
+
+    .container {
+        width: 768px;
+
+        & > div:first-of-type {
+            padding-top: 25px;
+            padding-right: 31px;
+            padding-left: 34px;
+
+            & > p {
+
+                img {
+                    margin-right: 8px;
+                }
+            }
+
+            h5 {
+                line-height: 29px;
+
+                &::first-letter {
+                    padding: 5px 8px;
+                }
+            }
+
+            h6 {
+                margin-bottom: 8px;
+                padding-top: 1px;
+                padding-left: 10px;
+            }
+
+            & > div:first-of-type {
+
+                p:last-of-type {
+                    padding-bottom: 14px;
+                }
+            }
+
+            & > div:last-of-type {
+                right: -31px;
+            }
+        }
+    }
+
+    & > div:last-of-type {
+
+        .slider-control {
+            width: 768px;
+
+            & > div:first-child {
+                width: 345px;
+                background: color(5);
+            }
+
+            & > div:last-child {
+                padding-right: 78px;
+            }
+        }
+    }
 }
