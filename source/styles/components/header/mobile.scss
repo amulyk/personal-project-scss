@@ -72,20 +72,34 @@ header {
         }
     }
 
-    & > div:last-of-type {
-        width: 100%;
-        background: color(5);
+    .control {
 
-        & > div:first-child {
-            display: none;
-        }
+        .slider-control {
 
-        & > .slider-control {
-            display: none;
-        }
+            &::before {
+                left: 0;
+            }
 
-        & > div:last-child {
-            display: none;
+            .arrows {
+                display: none;
+            }
         }
     }
+
+    // & > div:last-of-type {
+    //     width: 100%;
+    //     background: color(5);
+
+    //     & > div:first-child {
+    //         display: none;
+    //     }
+
+    //     & > .slider-control {
+    //         display: none;
+    //     }
+
+    //     & > div:last-child {
+    //         display: none;
+    //     }
+    // }
 }

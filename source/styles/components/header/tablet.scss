@@ -42,18 +42,13 @@ header {
         }
     }
 
-    & > div:last-of-type {
+    .control {
 
         .slider-control {
             width: 768px;
 
-            & > div:first-child {
-                width: 345px;
-                background: color(5);
-            }
-
-            & > div:last-child {
-                padding-right: 78px;
+            &::before {
+                left: 0;
             }
         }
     }
