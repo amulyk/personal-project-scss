@@ -1,0 +1,65 @@
+main {
+    height: 469.83px;
+}
+
+.gallery {
+    padding-top: 54.4px;
+    padding-bottom: 52.4px;
+
+    .container {
+        position: relative;
+        flex-direction: column;
+        width: 768px;
+        margin: auto;
+        padding-top: 46px;
+        padding-left: 0;
+
+        .content {
+            width: 591.6px;
+            height: 295.91px;
+            margin-right: 0;
+            margin-bottom: 24px;
+            margin-left: 50px;
+        }
+
+        .options {
+            flex-direction: row;
+            width: 591.6px;
+            margin-left: 50px;
+
+            span {
+                position: absolute;
+                top: -6px;
+                left: 48px;
+            }
+
+            .flex {
+                justify-content: normal;
+                width: auto;
+                margin-bottom: 0;
+
+                .cell {
+                    margin-right: 14.3px;
+                }
+
+                &.middle {
+
+                    .cell {
+
+                        &.middle {
+                            margin-right: 0;
+                        }
+
+                        &:last-of-type {
+                            display: none;
+                        }
+                    }
+                }
+
+                &:last-of-type {
+                    display: none;
+                }
+            }
+        }
+    }
+}

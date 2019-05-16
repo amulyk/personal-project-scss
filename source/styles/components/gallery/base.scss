@@ -1,0 +1,57 @@
+.gallery {
+    padding-top: 53.4px;
+    padding-bottom: 58.4px;
+    background: color(5);
+
+    .container {
+        display: flex;
+        width: 1025px;
+        margin: auto;
+        padding-left: 25px;
+
+        .content {
+            width: 621.82px;
+            height: 408.76px;
+            margin-right: 30px;
+            background: color(3);
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                padding-bottom: 39px;
+                color: color(6);
+                font-family: 'Montserrat', sans-serif;
+                font-size: 30px;
+                font-weight: 700;
+                letter-spacing: -.5px;
+                line-height: 24px;
+            }
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                width: 351.64px;
+                margin-bottom: 21.4px;
+
+                .cell {
+                    width: 107.02px;
+                    height: 100.9px;
+                    background: color(3);
+
+                    &:hover {
+                        width: 93.02px;
+                        height: 86.9px;
+                        border: 7px solid rgba(237, 28, 36, .9);
+                    }
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

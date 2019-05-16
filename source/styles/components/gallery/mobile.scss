@@ -1,0 +1,36 @@
+main {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    padding-top: 99.4px;
+    padding-bottom: 70.4px;
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 320px;
+        margin: auto;
+        padding-left: 0;
+
+        .content {
+            width: 271.21px;
+            height: 190.92px;
+            margin-right: 0;
+        }
+
+        .options {
+
+            span {
+                position: absolute;
+                top: -62px;
+                left: 116px;
+                font-size: 24px;
+            }
+
+            .flex {
+                display: none;
+            }
+        }
+    }
+}
