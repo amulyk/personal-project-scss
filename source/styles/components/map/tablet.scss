@@ -1,0 +1,12 @@
+.map {
+
+    .container {
+        width: 768px;
+        margin: auto;
+
+        & > div {
+            width: 344.5px;
+            padding-top: 55px;
+        }
+    }
+}
