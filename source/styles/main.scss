@@ -1,8 +1,9 @@
 @import 'reset';
+@import 'base';
 @import 'palette';
 @import 'media-queries';
-@import 'components/header/index.scss';
-@import 'components/main/index.scss';
-@import 'components/gallery/index.scss';
-@import 'components/map/index.scss';
-@import 'components/footer/index.scss';
+@import 'components/header/index';
+@import 'components/main/index';
+@import 'components/gallery/index';
+@import 'components/map/index';
+@import 'components/footer/index';

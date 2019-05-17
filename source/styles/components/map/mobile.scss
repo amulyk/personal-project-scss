@@ -8,20 +8,21 @@
         margin: auto;
         padding-left: 0;
 
-        & > div {
+        .info {
             display: flex;
             justify-content: center;
+            width: 315px;
             height: auto;
 
             h3 {
-                top: 33px;
-                left: 132px;
+                top: 34px;
+                left: 115px;
                 font-size: 24px;
             }
 
             .mark {
                 top: 97px;
-                left: 163px;
+                left: 146px;
             }
 
             .desktop {
@@ -50,7 +51,7 @@
 
             p:last-of-type {
                 top: 235px;
-                left: 79px;
+                left: 61px;
                 font-size: 12px;
                 line-height: 29px;
 
@@ -61,7 +62,7 @@
 
             .icons {
                 bottom: 63px;
-                left: 109px;
+                left: 91px;
             }
         }
     }

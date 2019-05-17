@@ -13,14 +13,20 @@ main {
         width: 768px;
         margin: auto;
 
-        &::before {
+        .overview-img {
             display: none;
         }
 
         .content {
             padding-left: 50px;
 
+            h3 {
+                padding-left: 0;
+                letter-spacing: -.5px;
+            }
+
             .title {
+                padding-left: 0;
 
                 &.mobile {
                     display: none;

@@ -18,12 +18,16 @@ footer {
             }
 
             p {
-                padding-left: 1px;
+                padding-left: 2px;
             }
         }
 
-        div:last-of-type {
-            margin-right: 126px;
+        a {
+
+            button {
+                right: 126px;
+                bottom: 63px;
+            }
         }
     }
 }

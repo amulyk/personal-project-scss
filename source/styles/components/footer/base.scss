@@ -1,4 +1,5 @@
 footer {
+    position: relative;
     height: 163.5px;
     background: color(5);
 
@@ -45,13 +46,28 @@ footer {
             }
         }
 
-        div:last-of-type {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 37px;
-            height: 37px;
-            border: 1px solid rgba(255, 255, 255, .3);
+        a {
+
+            button {
+                position: fixed;
+                z-index: 3;
+                right: 80px;
+                bottom: 80px;
+                width: 39px;
+                height: 39px;
+                border: 1px solid rgba(255, 255, 255, .3);
+                background: color(5);
+
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(/images/footer/arrow.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
         }
     }
 }
