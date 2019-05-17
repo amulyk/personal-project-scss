@@ -3,10 +3,50 @@
     .container {
         width: 768px;
         margin: auto;
+        padding-left: 6px;
 
         & > div {
-            width: 344.5px;
-            padding-top: 55px;
+            padding-top: 0;
+
+            .bg {
+                width: 343.5px;
+                height: 440px;
+            }
+
+            h3 {
+                top: 55px;
+                left: 120px;
+            }
+
+            .mark {
+                top: 124px;
+                left: 161px;
+            }
+
+            .tablet {
+                display: inline-block;
+                position: absolute;
+                top: 172px;
+                left: 80px;
+                color: color(3);
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: center;
+            }
+
+            .desktop {
+                display: none;
+            }
+
+            .bg-mobile {
+                display: none;
+            }
+
+            p:last-of-type {
+                left: 51px;
+            }
         }
     }
 }

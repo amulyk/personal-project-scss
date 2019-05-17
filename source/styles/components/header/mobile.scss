@@ -30,8 +30,8 @@ header {
 
             nav {
                 top: 14px;
-                right: 0;
                 height: 58.14px;
+                transform: translateX(-100%);
             }
 
             & div::after {
@@ -85,21 +85,4 @@ header {
             }
         }
     }
-
-    // & > div:last-of-type {
-    //     width: 100%;
-    //     background: color(5);
-
-    //     & > div:first-child {
-    //         display: none;
-    //     }
-
-    //     & > .slider-control {
-    //         display: none;
-    //     }
-
-    //     & > div:last-child {
-    //         display: none;
-    //     }
-    // }
 }

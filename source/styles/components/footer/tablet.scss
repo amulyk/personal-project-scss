@@ -1,0 +1,29 @@
+footer {
+
+    .container {
+        width: 768px;
+        margin: auto;
+
+        div:first-of-type {
+            flex-direction: column;
+            margin-left: 48px;
+
+            h3 {
+                margin-right: 0;
+                margin-bottom: 6px;
+
+                span {
+                    padding-top: 5px;
+                }
+            }
+
+            p {
+                padding-left: 1px;
+            }
+        }
+
+        div:last-of-type {
+            margin-right: 126px;
+        }
+    }
+}

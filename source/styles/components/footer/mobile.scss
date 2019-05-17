@@ -1,0 +1,38 @@
+footer {
+    height: 167.48px;
+
+    .container {
+        align-items: normal;
+        width: 270px;
+
+        div:first-of-type {
+            flex-direction: column;
+            padding-top: 29px;
+
+            h3 {
+                margin-right: 0;
+                margin-bottom: 38px;
+                font-size: 15.81px;
+
+                &::first-letter {
+                    margin-right: 4px;
+                    font-size: 29px;
+                }
+
+                span {
+                    padding-top: 5px;
+                }
+            }
+
+            p {
+                font-size: 12px;
+                letter-spacing: .1px;
+                line-height: normal;
+            }
+        }
+
+        div:last-of-type {
+            margin-top: 26px;
+        }
+    }
+}

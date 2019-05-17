@@ -11,20 +11,18 @@
         width: 1000px;
         height: 100%;
         margin: auto;
+        padding-left: 4px;
 
         & > div {
-            display: flex;
             position: absolute;
-            flex-direction: column;
-            align-items: center;
+            top: 0;
             width: 349px;
             height: 440px;
-            margin-left: 2px;
-            padding-top: 64px;
-            background: rgba(237, 28, 36, .95);
 
             h3 {
-                padding-bottom: 16px;
+                position: absolute;
+                top: 64px;
+                left: 121px;
                 color: color(3);
                 font-family: 'Montserrat', sans-serif;
                 font-size: 30px;
@@ -34,18 +32,15 @@
             }
 
             .mark {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 42.5px;
-                height: 42.5px;
-                margin-bottom: 14px;
-                border-radius: 50%;
-                background: color(3);
+                position: absolute;
+                top: 124px;
+                left: 162px;
             }
 
-            p:first-of-type {
-                padding-bottom: 19px;
+            .desktop {
+                position: absolute;
+                top: 173px;
+                left: 96px;
                 color: color(3);
                 font-family: 'Open Sans', sans-serif;
                 font-size: 16px;
@@ -54,8 +49,14 @@
                 text-align: center;
             }
 
+            .tablet {
+                display: none;
+            }
+
             p:last-of-type {
-                padding-bottom: 21px;
+                position: absolute;
+                top: 252px;
+                left: 53px;
                 color: color(3);
                 font-family: 'Montserrat', sans-serif;
                 font-size: 14px;
@@ -65,6 +66,8 @@
                 &::before {
                     content: '';
                     display: block;
+                    position: relative;
+                    top: 0;
                     width: 241px;
                     height: 1px;
                     margin-bottom: 20px;
@@ -72,8 +75,15 @@
                 }
             }
 
+            .bg-mobile {
+                display: none;
+            }
+
             .icons {
                 display: flex;
+                position: absolute;
+                bottom: 84px;
+                left: 107px;
                 border: 1px solid rgba(255, 255, 255, .3);
 
                 div {

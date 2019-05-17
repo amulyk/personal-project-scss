@@ -1,0 +1,68 @@
+.map {
+    height: 402.83px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        margin: auto;
+        padding-left: 0;
+
+        & > div {
+            display: flex;
+            justify-content: center;
+            height: auto;
+
+            h3 {
+                top: 33px;
+                left: 132px;
+                font-size: 24px;
+            }
+
+            .mark {
+                top: 97px;
+                left: 163px;
+            }
+
+            .desktop {
+                display: none;
+            }
+
+            .tablet {
+                display: unset;
+                position: absolute;
+                top: 161px;
+                color: color(3);
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: center;
+            }
+
+            .bg-desktop {
+                display: none;
+            }
+
+            .bg-mobile {
+                display: unset;
+            }
+
+            p:last-of-type {
+                top: 235px;
+                left: 79px;
+                font-size: 12px;
+                line-height: 29px;
+
+                &::before {
+                    width: 191.67px;
+                }
+            }
+
+            .icons {
+                bottom: 63px;
+                left: 109px;
+            }
+        }
+    }
+}

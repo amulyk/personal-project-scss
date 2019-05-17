@@ -13,7 +13,7 @@ main {
         width: 768px;
         margin: auto;
 
-        .wrapper {
+        &::before {
             display: none;
         }
 
