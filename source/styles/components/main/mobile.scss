@@ -1,4 +1,5 @@
 main {
+    margin-bottom: 40px;
     background: color(3);
 
     .left {
@@ -27,6 +28,12 @@ main {
                 font-size: 23px;
                 letter-spacing: .2px;
                 line-height: 28.8px;
+                text-align: center;
+            }
+
+            & > p:last-of-type {
+                width: 271px;
+                margin: auto;
                 text-align: center;
             }
 
@@ -62,12 +69,6 @@ main {
                 }
             }
 
-            & > p:last-of-type {
-                width: 271px;
-                margin: auto;
-                text-align: center;
-            }
-
             .flex {
                 display: flex;
                 flex-direction: column;
@@ -87,8 +88,4 @@ main {
             }
         }
     }
-}
-
-header {
-    margin-bottom: 39px;
 }
